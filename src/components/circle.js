@@ -1,11 +1,27 @@
-class Shape{
-    constructor(color){
-        this.color=color;
+// import using require
+var Shape = require('./shape.js');
+var React = require('react');
+// declare class
+class Circle extends Shape{
+    constructor(color) {
+        super(color);
+        // this.radius = radius;
     }
-    drawShape(){
-        return color;
-    }
+
     calculateArea(){
+      let area = 3.14*this.radius*this.radius;
+      console.log(area);
+      return area;
     }
 }
-module.exports.Shape = Shape;
+// class Circle extends Shape{
+
+//     constructor(){
+//         super(color);
+//     }
+
+//     calculateArea(){
+//     }
+// }
+module.exports.Circle = Circle;
+// export class using module.exports
