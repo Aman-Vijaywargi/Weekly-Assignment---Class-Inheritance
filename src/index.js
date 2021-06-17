@@ -1,5 +1,5 @@
-const React=require("react")
-const ReactDOM=require("react-dom");
-const Circle=require("./components/circle")
+import React from "react";
+import ReactDOM from "react-dom";
+const App = require('./components/App');
 
 ReactDOM.render(<App />, document.getElementById("root"));
