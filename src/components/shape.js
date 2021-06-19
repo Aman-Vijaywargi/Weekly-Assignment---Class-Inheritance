@@ -4,9 +4,9 @@ module.exports = class Shape {
     this.color = "red";
   }
   drawShape() {
-    console.log("Drawing a shape");
+//     console.log("Drawing a shape");
   }
   calculateArea() {
-    console.log("don't know area of unknow shape");
+//     console.log("don't know area of unknow shape");
   }
 };
