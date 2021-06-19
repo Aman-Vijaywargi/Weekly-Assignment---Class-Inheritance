@@ -1,11 +1,12 @@
-class Shape {
-    constructor(color) {
-        this.color = red;
-    }
-    drawShape() {
-    }
-    calculateArea(r) {
-        let area = 2*3.14*r*r;
-    }
-}
-module.exports = Shape;
+const React = require("react");
+module.exports = class Shape {
+  constructor() {
+    this.color = "red";
+  }
+  drawShape() {
+    console.log("Drawing a shape");
+  }
+  calculateArea() {
+    console.log("don't know area of unknow shape");
+  }
+};
