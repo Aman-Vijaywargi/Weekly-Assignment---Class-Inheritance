@@ -8,6 +8,15 @@ class Circle extends Shape {
   calculateArea() {
 //     console.log("Area of cirle");
   }
+  render() {
+        return(
+            <div>              
+            <Shape/>
+            <Circle/>
+            </div>
+        )
+    }
+
 }
 
 module.exports = Circle;
